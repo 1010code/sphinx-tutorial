@@ -29,20 +29,10 @@ html_static_path = ['_static']
 
 latex_engine = 'xelatex'
 latex_elements = {
-  'papersize': 'a4paper',
-  'pointsize': '12pt',
   'preamble': r'''
 \usepackage{xeCJK}
-​
-\setCJKmainfont[BoldFont=STZhongsong, ItalicFont=STKaiti]{STSong}
-\setCJKsansfont[BoldFont=STHeiti]{STXihei}
-\setCJKmonofont{STFangsong}
-\XeTexlinebreaklocale "zh"
-\XeTexlinebreakskip = Opt plus 1pt
-\parindent 2em
-\definecolor (VerbatimColor}{rgb}{0.95,0.95,0.95)
-\setcounter{tocdepth}{3} \renewcommand\familydefault{\ttdefault}
-\renewcommand\CJKfamilydefault{\CJKrmdefault}
-​
-''',
+\setCJKmainfont{Noto Sans CJK TC}
+\setCJKsansfont{Noto Sans CJK TC}
+\setCJKmonofont{Noto Sans Mono CJK TC}
+  '''
 }
