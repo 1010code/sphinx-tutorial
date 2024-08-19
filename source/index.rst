@@ -16,17 +16,7 @@ Welcome to pdmdocs's documentation!
    4.咱們一起做資料清理和前處理/README
    5.機器學習大補帖/README
 
-.. toctree::
-   :maxdepth: 3
-   :caption: 第二部分 機器學習入門:
-   
-   6.非監督式學習k-means分群/README
-   7.非監督式學習-降維/README
-   8.線性迴歸/README
-   9.邏輯迴歸/README
-   10.KNN/README
-   11.SVM/README
-   12.決策樹/README
+
 
 
 
