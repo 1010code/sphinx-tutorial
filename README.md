@@ -8,7 +8,7 @@ Sphinx是一個功能強大的文件產生器，具有許多用於編寫技術�
 使用pip安裝軟體包
 
 ```
-pip install sphinx sphinx_rtd_theme
+pip install sphinx sphinx_rtd_theme myst_parser
 ```
 
 ## 建立專案
