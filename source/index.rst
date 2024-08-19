@@ -8,15 +8,26 @@ Welcome to pdmdocs's documentation!
 
 .. toctree::
    :maxdepth: 3
-   :caption: ch1:
+   :caption: 第一部分 AI基礎概念:
 
-   test1
-   
+   1.全民瘋AI系列2.0目標介紹/README
+   2.快來探索AI的世界/README
+   3.你真了解資料嗎試試看視覺化分析吧/README
+   4.咱們一起做資料清理和前處理/README
+   5.機器學習大補帖/README
+
 .. toctree::
    :maxdepth: 3
-   :caption: ch2:
+   :caption: 第二部分 機器學習入門:
+   
+   6.非監督式學習k-means分群/README
+   7.非監督式學習-降維/README
+   8.線性迴歸/README
+   9.邏輯迴歸/README
+   10.KNN/README
+   11.SVM/README
+   12.決策樹/README
 
-   ch1/test2
 
 
 
