@@ -8,13 +8,13 @@ Welcome to pdmdocs's documentation!
 
 .. toctree::
    :maxdepth: 3
-   :caption: Contents:
+   :caption: ch1:
 
    test1
    
 .. toctree::
    :maxdepth: 3
-   :caption: ch1:
+   :caption: ch2:
 
    ch1/test2
 
