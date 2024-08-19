@@ -28,11 +28,7 @@ html_static_path = ['_static']
 
 
 latex_engine = 'xelatex'
+latex_use_xindy = False
 latex_elements = {
-  'preamble': r'''
-\usepackage{xeCJK}
-\setCJKmainfont{Noto Sans CJK TC}
-\setCJKsansfont{Noto Sans CJK TC}
-\setCJKmonofont{Noto Sans Mono CJK TC}
-  '''
+    'preamble': '\\usepackage[UTF8]{ctex}\n',
 }

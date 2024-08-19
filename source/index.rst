@@ -8,16 +8,15 @@ Welcome to pdmdocs's documentation!
 
 .. toctree::
    :maxdepth: 3
-   :caption: 第一部分 AI基礎概念:
+   :caption: ch1:
 
-   1.全民瘋AI系列2.0目標介紹/README
-   2.快來探索AI的世界/README
-   3.你真了解資料嗎試試看視覺化分析吧/README
-   4.咱們一起做資料清理和前處理/README
-   5.機器學習大補帖/README
+   test1
+   
+.. toctree::
+   :maxdepth: 3
+   :caption: ch2:
 
-
-
+   ch1/test2
 
 
 
