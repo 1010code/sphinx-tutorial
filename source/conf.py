@@ -33,16 +33,15 @@ latex_elements = {
   'pointsize': '12pt',
   'preamble': r'''
 \usepackage{xeCJK}
-​
-\setCJKmainfont[BoldFont=STZhongsong, ItalicFont=STKaiti]{STSong}
-\setCJKsansfont[BoldFont=STHeiti]{STXihei}
-\setCJKmonofont{STFangsong}
-\XeTexlinebreaklocale "zh"
-\XeTexlinebreakskip = Opt plus 1pt
+\setCJKmainfont[BoldFont=Noto Sans CJK TC, ItalicFont=Noto Serif CJK TC]{Noto Sans CJK TC}
+\setCJKsansfont[BoldFont=Noto Sans CJK TC]{Noto Sans CJK TC}
+\setCJKmonofont{Noto Sans Mono CJK TC}
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip = 0pt plus 1pt
 \parindent 2em
-\definecolor (VerbatimColor}{rgb}{0.95,0.95,0.95)
-\setcounter{tocdepth}{3} \renewcommand\familydefault{\ttdefault}
+\definecolor{VerbatimColor}{rgb}{0.95,0.95,0.95}
+\setcounter{tocdepth}{3}
+\renewcommand\familydefault{\ttdefault}
 \renewcommand\CJKfamilydefault{\CJKrmdefault}
-​
 ''',
 }
