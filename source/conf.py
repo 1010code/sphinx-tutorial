@@ -29,12 +29,13 @@ html_static_path = ['_static']
 
 latex_engine = 'xelatex'
 latex_elements = {
-
 'preamble': '''
 \\usepackage{xeCJK}
-\\hypersetup{unicode=true}
-\\usepackage{CJKutf8}
-\\AtBeginDocument{\\begin{CJK}{UTF8}{gbsn}}
-\\AtEndDocument{\\end{CJK}}
+\\usepackage{indentfirst}
+\\setlength{\\parindent}{2em}
+\\setCJKmainfont{WenQuanYi Zen Hei Sharp}
+\\setCJKmonofont[Scale=0.9]{WenQuanYi Zen Hei Mono}
+\\setCJKfamilyfont{song}{WenQuanYi Zen Hei}
+\\setCJKfamilyfont{sf}{WenQuanYi Zen Hei}
 '''
 }
