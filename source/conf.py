@@ -28,7 +28,13 @@ html_static_path = ['_static']
 
 
 latex_engine = 'xelatex'
-latex_use_xindy = False
 latex_elements = {
-    'preamble': '\\usepackage[UTF8]{ctex}\n',
+  'preamble': r'''
+\usepackage{xeCJK}
+\setCJKmainfont[BoldFont=Noto Sans CJK TC, ItalicFont=Noto Serif CJK TC]{Noto Sans CJK TC}
+\setCJKsansfont{Noto Sans CJK TC}
+\setCJKmonofont{Noto Sans Mono CJK TC}
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip = 0pt plus 1pt
+''',
 }
