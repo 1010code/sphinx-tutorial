@@ -28,6 +28,7 @@ html_static_path = ['_static']
 
 
 latex_engine = 'xelatex'
+latex_use_xindy = False
 latex_elements = {
   'preamble': r'''
 \usepackage{xeCJK}
