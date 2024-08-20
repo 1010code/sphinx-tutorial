@@ -22,7 +22,7 @@
 
 > 重複步驟2、3，直到資料點不再變換群組為止
 
-<img src="./image/img6-2.gif" width="300" />
+<!-- <img src="./image/img6-2.gif" width="300" /> -->
 
 ## [程式實作]
 
